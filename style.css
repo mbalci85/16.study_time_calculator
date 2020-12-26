@@ -19,8 +19,9 @@ body {
 }
 p {
 	color: #562349;
-	font-size: 1.5rem;
+	font-size: 3.5rem;
 	text-decoration: none;
+	font-weight: bolder;
 }
 .btn {
 	background-color: #000;
@@ -39,4 +40,11 @@ p {
 
 .btn:active {
 	transform: scale(0.98, 0.96);
+}
+
+img {
+	height: 500px;
+	width: auto;
+	border: solid 5px violet;
+	border-radius: 40%;
 }
